@@ -33,6 +33,7 @@
 					<li class="nav-item"><a href="#topics" class="nav-link">About The Book</a></li>
 					<li class="nav-item"><a href="#reviews" class="nav-link">Reviews</a></li>
 					<li class="nav-item"><a href="#contact" class="nav-link">Get in Touch</a></li>
+					<li class="nav-item"><a href="#credits" class="nav-link">Credits</a></li>
 					<li class="nav-item d-md-none"><a href="#pricing" class="nav-link">Pricing</a></li>
 					<li class="nav-item ms-2 d-none d-md-inline"><a href="#pricing" class="btn btn-secondary">Buy Now</a></li>
 				</ul>
@@ -268,11 +269,79 @@
 	</section>
 
   <!-- contact form -->
+	<section id="contact">
+		<div class="container-lg">
+			<div class="text-center">
+				<h2>Get in Touch</h2>
+				<p class="lead">Questions? Fill out the form to contact Net Ninja Pro directly...</p>
+			</div>
+		</div>
 
+		<div class="row justify-content-center my-5">
+			<div class="col-lg-6">
+				<form>
+					<label for="email" class="form-label">Email Address: </label>
+					<div class="mb-4 input-group">
+						<span class="input-group-text">
+							<i class="bi bi-envelope-at-fill"></i>
+						</span>
+						<input type="email" class="form-control" id="email" placeholder="e.g., nathan@ncp.dev">
+					</div>
 
-  <!-- get updates / modal trigger -->
-  
-  
+					<label for="name" class="form-label">Name: </label>
+					<div class="input-group mb-4">
+						<span class="input-group-text">
+							<i class="bi bi-person-fill"></i>
+						</span>
+						<input type="text" class="form-control" id="name" placeholder="e.g., Nathan Parker">
+					</div>
+
+					<label for="subject" class="form-label">What is subject of your question?</label>
+					<div class="input-group mb-4">
+						<span class="input-group-text">
+							<i class="bi bi-question-lg"></i>
+						</span>
+						<select class="form-select" id="subject">
+							<option value="pricing" selected>Pricing</option>
+							<option value="content">Content</option>
+							<option value="other">Other</option>
+						</select>
+					</div>
+
+					<label for="question" class="form-label">Describe your question...</label>
+					<div class="input-group mb-4">
+						<span class="input-group-text">
+							<i class="bi bi-chat-right-text-fill"></i>
+						</span>
+						<textarea name="" id="" class="form-control" style="height: 140px"></textarea>
+					</div>
+
+					<div class="mb-4 text-center">
+						<button type="submit" class="btn btn-secondary">Submit</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<!-- credits -->
+	<section id="credits" class="bg-light">
+			<div class="text-center">
+				<h2>Credits</h2>
+				<p class="lead">Showcasing the people behind the website...</p>
+			</div>
+
+			<div class="row justify-content-center mt-5 gap-4">
+					<div class="col-lg-3">
+							<p class="fs-5">This website was made in following of the teachings of Net Ninja Pro on YouTube. Thus, all code and assets other Nathan Parker's logo are in his domain.</p>
+							<p class="fs-5">Credit goes out to Net Ninja Pro, BootStrap, and Ivy Tech Community College for the creation, ease, and administration of this learning expierence for Nathan Parker to advance his website development skills.</p>
+					</div>				
+					
+					<div class="col-lg-3 d-flex justify-content-center">
+							<img src="./assets/thanks.png" class="img-fluid" alt="credits" />
+					</div>
+			</div>
+	<!-- get updates / modal trigger -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 </html>
